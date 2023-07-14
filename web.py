@@ -11,7 +11,8 @@ def add_todo():
 
 st.title("App nhắc nhở việc làm cho mấy đứa đít to lười biếng")
 st.subheader('Danh sách việc làm')
-st.write('MEoowwwwww')
+st.write('Viết không dấu không là web hỏng vãi đuýt ::333')
+st.write("Truờng hợp thấy die thì refresh hoặc báo cáo lại cho nhà phát triển")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=index)
